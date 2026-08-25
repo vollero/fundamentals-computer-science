@@ -9,9 +9,18 @@ programming experience. The complete course contains 40 hours of short video
 lectures and 60 hours of paired in-class exercises. Python is taught from the
 beginning.
 
-The course is being designed as a whole before individual lecture packages are
-released. Each release will contain notes, exercises, separate worked solutions,
-code, captions, and links to the video lecture.
+The course was designed as a complete learning path before individual lecture
+production began. Each final release contains notes, exercises, separate worked
+solutions, code, captions, and links to the video lecture.
+
+## Available materials
+
+- **L01 — Problems, inputs, outputs, and a first Python program** *(materials
+  preview; video in production)*:
+  [notes](lectures/L01-problems-inputs-outputs/notes/),
+  [class exercises](lectures/L01-problems-inputs-outputs/exercises/exercises.md),
+  [worked solutions](lectures/L01-problems-inputs-outputs/solutions/solutions.md),
+  and [Python examples](lectures/L01-problems-inputs-outputs/code/).
 
 Unless a file says otherwise, educational content is available under CC BY 4.0
 and executable code under the MIT License.

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">From a human goal to observable execution</title>
+  <desc id="desc">A four-stage sequence moves from a broad goal to a testable specification, a represented program, and a particular execution.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#F7F3E8"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="#0B132B"/>
+  <text x="800" y="120" text-anchor="middle" fill="#F7F3E8" font-family="sans-serif" font-size="62" font-weight="700">From intention to evidence</text>
+
+  <g font-family="sans-serif" text-anchor="middle">
+    <rect x="70" y="310" width="310" height="250" rx="26" fill="#151F3D" stroke="#F7F3E8" stroke-width="6"/>
+    <text x="225" y="410" fill="#F7F3E8" font-size="50" font-weight="700">GOAL</text>
+    <text x="225" y="480" fill="#F7F3E8" font-size="31">desired change</text>
+
+    <rect x="450" y="270" width="310" height="330" rx="26" fill="#151F3D" stroke="#F7F3E8" stroke-width="6"/>
+    <text x="605" y="400" fill="#F7F3E8" font-size="34" font-weight="700">SPECIFICATION</text>
+    <text x="605" y="470" fill="#F7F3E8" font-size="31">testable behavior</text>
+
+    <rect x="840" y="230" width="310" height="410" rx="26" fill="#151F3D" stroke="#FFC857" stroke-width="9"/>
+    <rect x="858" y="248" width="274" height="374" rx="16" fill="none" stroke="#FFC857" stroke-width="3"/>
+    <text x="995" y="400" fill="#FFC857" font-size="50" font-weight="700">PROGRAM</text>
+    <text x="995" y="470" fill="#F7F3E8" font-size="31">represented</text>
+    <text x="995" y="510" fill="#F7F3E8" font-size="31">instructions</text>
+
+    <rect x="1220" y="190" width="310" height="490" rx="26" fill="#151F3D" stroke="#F7F3E8" stroke-width="6"/>
+    <text x="1375" y="400" fill="#F7F3E8" font-size="39" font-weight="700">EXECUTION</text>
+    <text x="1375" y="470" fill="#F7F3E8" font-size="31">one observable run</text>
+  </g>
+
+  <line x1="390" y1="435" x2="425" y2="435" stroke="#F7F3E8" stroke-width="7" marker-end="url(#arrow)"/>
+  <line x1="770" y1="435" x2="815" y2="435" stroke="#F7F3E8" stroke-width="7" marker-end="url(#arrow)"/>
+  <line x1="1160" y1="435" x2="1195" y2="435" stroke="#F7F3E8" stroke-width="7" marker-end="url(#arrow)"/>
+
+  <text x="800" y="790" text-anchor="middle" fill="#F7F3E8" font-family="sans-serif" font-size="36">A completed run is evidence; correctness still depends on the specification.</text>
+</svg>

@@ -44,6 +44,8 @@ We can begin reasoning about a computation as a black box:
 
 ![Input, rules, and output model](assets/input-rules-output.svg)
 
+What counts as input or output depends on the system boundary we choose to study.
+
 ```text
 input(s)  -->  rules carried out by an executor  -->  output(s)
 ```
